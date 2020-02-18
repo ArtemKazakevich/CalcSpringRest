@@ -1,0 +1,48 @@
+GET http://localhost:8080/reg/users
+
+###
+
+POST http://localhost:8080/calc
+Content-Type: application/json
+
+
+{
+  "operation": "sum",
+  "a": 12,
+  "b": 12
+}
+
+###
+
+GET http://localhost:8080/history
+Content-Type: application/json
+
+{
+  "token": 7010074239205800955
+}
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/json
+
+
+{
+  "firstName": "faga",
+  "lastName": "faga",
+  "email": "ftp@gamil.com",
+  "password": 12345
+}
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/json
+
+{
+  "email": "ftp@gamil.com",
+  "password": "12345"
+}
+
+###
+
