@@ -1,4 +1,4 @@
-package by.tms.rest.entity;
+package by.tms.rest.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;

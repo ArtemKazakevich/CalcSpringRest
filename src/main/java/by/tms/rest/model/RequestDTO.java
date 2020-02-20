@@ -1,4 +1,4 @@
-package by.tms.rest.entity;
+package by.tms.rest.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

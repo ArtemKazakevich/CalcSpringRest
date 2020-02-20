@@ -5,14 +5,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CalcService {
-     String operation;
-     int a;
-     int b;
      
      @Autowired
      private Calculation calculation;
      
-     public double action() {
+     public double action(String operation, int a, int b) {
           double value1 = a;
           double value2 = b;
           double result = 0;

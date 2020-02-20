@@ -1,6 +1,6 @@
 package by.tms.rest.config;
 
-import by.tms.rest.entity.User;
+import by.tms.rest.model.User;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -13,7 +13,7 @@ import java.util.Map;
 public class Config {
      
      @Bean
-     public Map<String, String> history(){
+     public Map<String, Double> history(){
           return new HashMap<>();
      }
      
